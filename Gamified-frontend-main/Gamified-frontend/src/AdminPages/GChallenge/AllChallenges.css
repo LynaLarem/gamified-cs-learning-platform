@@ -1,0 +1,40 @@
+.admin-challenge-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .admin-challenge-column {
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(33, 84, 172, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 0 15px -2px rgba(11, 255, 255, 0.72);
+    padding: 20px;
+    height: 80%;
+}
+
+  
+  .admin-challenge-ul {
+    padding-left: 0;
+  }
+  
+  .admin-challenge-li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(169, 169, 169, 0.4);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .admin-challenge-li strong {
+    color: white;
+  }
+  .challenge-title {
+    display: flex;
+    align-items: center;
+  }

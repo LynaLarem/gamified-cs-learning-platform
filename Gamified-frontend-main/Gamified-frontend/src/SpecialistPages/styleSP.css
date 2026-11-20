@@ -1,0 +1,43 @@
+/* .cards-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} */
+
+.levels{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-direction: row;
+  }
+  .icon {
+    width: 0.1%;
+    margin-left: 2px;
+}
+.level-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icons-container {
+    margin-left: 900px;
+    display: flex;
+    gap: 5px; 
+  }
+  .custom-accordion-header {
+    padding: 0 !important; /* Enlève le padding */
+    background: rgb(149, 53, 105, 0.76); /* Applique le background voulu */
+    backdrop-filter: blur(4.9px); /* Ajoute le filtre de flou */
+    -webkit-backdrop-filter: blur(4.9px); /* Ajoute le filtre de flou pour Safari */
+    color: #fff; /* Définit la couleur du texte */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icon-link{
+
+  }  

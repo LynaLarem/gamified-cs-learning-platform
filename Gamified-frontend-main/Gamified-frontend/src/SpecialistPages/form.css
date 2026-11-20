@@ -1,0 +1,22 @@
+.input-placeholder::placeholder {
+    color: rgba(0, 208, 255, 0.719);
+    opacity: 1; 
+}
+/* style.css */
+.select-container {
+    position: relative;
+    display: inline-block;
+}
+
+.select-container select {
+    background-color: #07064652;  /* Couleur de fond */
+    color: rgb(0, 209, 255);      /* Couleur du texte */
+    border: 2px solid rgb(0, 209, 255);  /* Couleur de la bordure */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.select-container select option {
+    background-color: #07064652;  /* Couleur de fond des options */
+    color: rgb(0, 209, 255);      /* Couleur du texte des options */
+}

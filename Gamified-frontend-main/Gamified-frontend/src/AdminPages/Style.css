@@ -1,0 +1,44 @@
+ .details {
+     border-color: #4caf50;
+     color: #4caf50;
+ }
+
+ .details:hover {
+     border-color: #4caf50;
+     background-color: #4caf50;
+     color: white;
+
+ }
+ .admincontainer{
+    padding-left: 2%;    
+    padding-right: 2%;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .admincontainer, .admincontainer-md, .admincontainer-sm {
+       max-width: 100%;
+    }
+   }
+   .admincard{
+    padding-bottom: 3%;
+}
+@keyframes gradientBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .animated-background {
+    background: linear-gradient(270deg, #1d1d1d, #2a2a2a, #3e3e3e, #4b4b4b);
+    background-size: 600% 600%;
+    animation: gradientBackground 15s ease infinite;
+    color: white;
+  }
+
+  

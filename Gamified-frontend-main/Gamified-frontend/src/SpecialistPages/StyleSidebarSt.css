@@ -1,0 +1,19 @@
+aside.ps-sidebar-root.css-1wvake5{
+    border-right-width: 0px;
+    border-right-style: none;
+}
+
+span.ps-menu-label.css-12w9als {
+    transition: all 0.1s ease;
+    padding: 14px 5px 14px 30px;
+    margin: 0px -20px 0px -20px;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+span.ps-menu-label.css-12w9als:hover{
+    background-color: rgba(27, 171, 203, 0.4);
+    color: #351546;
+    font-weight: bold;
+    text-shadow: 0px 0 white, 0 1px #351546, 0px 1px #351546, 0 0px #351546; 
+    padding-left: 40px;  
+}

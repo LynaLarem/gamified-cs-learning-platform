@@ -1,0 +1,43 @@
+aside.ps-sidebar-root.css-1wvake5{
+    border-right-width: 0px;
+    border-right-style: none;
+}
+
+span.ps-menu-label.css-12w9als {
+    transition: all 0.1s ease;
+    padding: 14px 5px 14px 30px;
+    margin: 0px -20px 0px -20px;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+span.ps-menu-label.css-12w9als:hover{
+    background-color: rgba(27, 171, 203, 0.4);
+    color: #351546;
+    font-weight: bold;
+    text-shadow: 0px 0 white, 0 1px #351546, 0px 1px #351546, 0 0px #351546; 
+    padding-left: 40px;  
+}
+
+li.ps-menuitem-root.ps-submenu-root.css-16jesut{
+    padding-right: 0px;
+}
+
+span.ps-menu-label.css-12w9als{
+    color: white;
+    text-shadow: -2px 0 #351546, 0 2px #351546, 1px 0 #351546, 0 -1px #351546;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: -25px;
+}
+
+span.ps-submenu-expand-icon.css-1cuxlhl{
+    color: white;
+}
+
+div.ps-submenu-content.ps-open.css-18unl23{
+    background-color: rgba(12, 6, 45, 1);
+}
+
+div.ps-submenu-content ps-open css-18unl23 ul.css-ewdv3l a.ps-menu-button span.ps-menu-label.css-12w9als{
+    padding-left: 0px;
+}

@@ -1,0 +1,77 @@
+.navbar-wrapper {
+    background-color: rgb(0, 17, 48);
+    color: white;
+    position: sticky;
+   width: 100%;
+}
+
+.navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+.div1{
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    padding-right: 50px;
+}
+.icon {
+    width: 30px;
+    margin-right: 10px;
+}
+.logo-wrapper {
+    margin-right: 50px;
+}
+.logo-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.buttonContainer {
+    display: flex;
+    gap: 20px;
+  }
+  
+  #btnnav {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .signin {
+    background-color: #7918be;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #ffffff;
+  }
+  
+  .signin:hover {
+    background-color: #5a0497;
+    transform: translateY(-5px);
+  }
+  
+  .signup {
+    border: 2px solid #7918be;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #7918be;
+    margin-left: 7px;
+  }
+  
+  .signup:hover {
+    background-color: #5a0497;
+    color: white;
+    transform: translateY(-5px);
+  }
+  
